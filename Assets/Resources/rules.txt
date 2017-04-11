@@ -1,0 +1,12 @@
+garage_size = big 	| going_to_work = often 		| amount_money = 100 	| deslanoside = no  -> volkswagen_polo
+garage_size = big 	| going_to_work = often 		| amount_money = >100 	| deslanoside = no  -> bently
+garage_size = big 	| going_to_work = rare  		| amount_money = 50 	| deslanoside = yes -> hummer
+
+garage_size = medium | going_to_work = sometimes 	| amount_money = 50 	| deslanoside = no  -> google_car
+garage_size = medium | going_to_work = rare 		| amount_money = 100 	| deslanoside = yes -> bmw_i8
+garage_size = medium | going_to_work = rare 		| amount_money = >100 	| deslanoside = yes -> porsche_911
+
+garage_size = small | going_to_work = sometimes 	| amount_money = 100 	| deslanoside = no  -> bicycle
+garage_size = small | going_to_work = rare 			| amount_money = >100 	| deslanoside = yes -> matiz
+garage_size = small | going_to_work = often 		| amount_money = 50 	| deslanoside = no  -> moto_bike
+

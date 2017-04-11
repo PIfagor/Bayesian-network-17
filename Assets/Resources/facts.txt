@@ -1,0 +1,4 @@
+garage_size:big, medium, small
+amount_money:50, 100, >100
+going_to_work: rare, sometimes, often
+deslanoside: yes, no
