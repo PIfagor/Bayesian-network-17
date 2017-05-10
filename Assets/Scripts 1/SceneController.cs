@@ -139,14 +139,14 @@ public class SceneController : MonoBehaviour
                 //{
                 //    print("["+userFact.Name +"] vs ["+ item.Name + "]");
                 //}
-                FactItem userItem = _userFacts.FirstOrDefault(t => t.Name == item.Name);
+               // FactItem userItem = _userFacts.FirstOrDefault(t => t.Name == item.Name);
                 //if (userItem == null)
                 //{
                 //    continue;
                 //}
                 //if (i == 3)
                 //return;
-                //FactItem userItem   = _userFacts.First(t => t.Name == item.Name);
+                FactItem userItem   = _userFacts.First(t => t.Name == item.Name);
 
                 if (item.Value == userItem.Value)
                 {
