@@ -19,15 +19,16 @@ public class DataModuleModel
 
     public string Name { get; set; }
 
-    public int DataID { get; set; }
+    public int DataId { get; set; }
 
     public int TimeTolearn { get; set; }
 
+    public int Priority { get; set; }
 
     public DataModuleModel()
     {
-        nextNodes = null;
-        prewNodes = null;
+        nextNodes = new List<DataModuleModel>();
+        prewNodes = new List<DataModuleModel>();
     }
 
     public void AddNewNextNode(DataModuleModel next)

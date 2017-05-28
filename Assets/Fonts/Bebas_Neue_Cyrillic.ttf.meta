@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 87b05fdbbd637fc4db7687c5ad7a7a75
+timeCreated: 1495644214
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Bebas Neue Cyrillic
+  fontNames:
+  - Bebas Neue Cyrillic
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
